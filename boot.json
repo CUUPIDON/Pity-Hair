@@ -1,0 +1,71 @@
+{
+  "name": "Pity Hair",
+  "version": "0.0.1",
+  "styleFileList": [],
+  "scriptFileList": [
+    "js/patch-hairstyles-fringe.js",
+    "js/patch-hairstyles-sides.js",
+    "js/dataExport.js"
+  ],
+  "tweeFileList": [],
+  "imgFileList": [
+    "img/hair/fringe/winnie/navel.png",
+    "img/hair/sides/winnie/thighs.png",
+    "img/hair/sides/winnie/chest.png",
+    "img/hair/fringe/winnie/thighs.png",
+    "img/hair/sides/winnie/short.png",
+    "img/hair/fringe/winnie/chest.png",
+    "img/hair/fringe/winnie/shoulder.png",
+    "img/hair/fringe/winnie/short.png",
+    "img/hair/sides/winnie/feet.png",
+    "img/hair/sides/winnie/shoulder.png",
+    "img/hair/fringe/winnie/feet.png",
+    "img/hair/sides/winnie/navel.png",
+    "img/hair/back/winnie/feet.png",
+    "img/hair/back/winnie/thighs.png"
+  ],
+  "additionFile": [
+    "js/dataExport.js",
+    "js/patch-hairstyles-fringe.js",
+    "js/patch-hairstyles-sides.js",
+    "readme.txt"
+  ],
+  "addonPlugin": [
+    {
+      "modName": "TweeReplacer",
+      "addonName": "TweeReplacerAddon",
+      "modVersion": "1.0.0",
+      "params": []
+    },
+    {
+      "modName": "ReplacePatcher",
+      "addonName": "ReplacePatcherAddon",
+      "modVersion": "1.0.0",
+      "params": []
+    },
+    {
+      "modName": "ModLoader DoL ImageLoaderHook",
+      "addonName": "ImageLoaderAddon",
+      "modVersion": "2.0.0",
+      "params": []
+    }
+  ],
+  "dependenceInfo": [
+    {
+      "modName": "ModLoader",
+      "version": ">=1.2.1"
+    },
+    {
+      "modName": "TweeReplacer",
+      "version": "1.2.0"
+    },
+    {
+      "modName": "ReplacePatcher",
+      "version": "1.2.0"
+    },
+    {
+      "modName": "ModLoader DoL ImageLoaderHook",
+      "version": ">=2.0.0"
+    }
+  ]
+}
